@@ -34,7 +34,7 @@ The cab ride data covers various types of cabs for Uber & Lyft and their price f
 - SQL
 - Google Colab Notebook
 
-[Back To The Top](> Author: Richard Taracha)
+[Back To The Top](>-Author:-Richard-Taracha)
 
 ---
 
