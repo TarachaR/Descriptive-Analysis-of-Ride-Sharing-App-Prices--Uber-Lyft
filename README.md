@@ -3,7 +3,7 @@
 
 > Author: Richard Taracha
 
-> Date: 08/11/2020
+> Date: 14/11/2020
 
 ![NYC Home Page Image](https://user-images.githubusercontent.com/67068918/98472046-59182b80-2201-11eb-940d-b18f930166e8.png)
 
