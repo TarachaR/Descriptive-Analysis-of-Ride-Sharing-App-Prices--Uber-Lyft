@@ -5,7 +5,7 @@
 
 > Date: 14/11/2020
 
-![ridesharing](https://user-images.githubusercontent.com/67068918/99152550-7f334500-26b3-11eb-846d-20ae633b47ff.png)
+![UberLyft-1-1200x402](https://user-images.githubusercontent.com/67068918/99152615-e5b86300-26b3-11eb-80ff-a8128f721080.png)
 
 ---
 
