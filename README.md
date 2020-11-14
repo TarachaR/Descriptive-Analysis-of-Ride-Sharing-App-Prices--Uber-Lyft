@@ -5,7 +5,7 @@
 
 > Date: 14/11/2020
 
-![lyft and uber](https://user-images.githubusercontent.com/67068918/99152661-1f896980-26b4-11eb-832d-686bc14a1dce.jpg)
+![UberLyft-1-1200x402](https://user-images.githubusercontent.com/67068918/99152615-e5b86300-26b3-11eb-80ff-a8128f721080.png)
 
 ---
 
