@@ -1,0 +1,7 @@
+
+Python
+Pandas
+SQL
+sqlite
+
+The dataset links to the two datasets have been provided in the READ.md file as they are more than 25MB and can't be directly uploaded to Github.
