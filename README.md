@@ -25,8 +25,6 @@ Sections headers used to reference locations of each destination:
 
 Come up with a descriptive analysis report to help a Ride Sharing Startup coming into the space, understand the various patterns on how pricing works for the existing ride sharing company. 
 
-I'm able to access some real-time data from Uber & Lyft's API and weather data from a Weather API conditions. I built a custom application in Scala to query data at regular intervals and saved it to DynamoDB. The queried cab ride estimates are done after every 5 mins and weather data after every 1 hr. 
-
 The cab ride data covers various types of cabs for Uber & Lyft and their price for the given location. Weather data contains weather attributes like temperature, rain, cloud, etc for all the locations taken into consideration.
 
 #### Technologies and Tools
@@ -36,7 +34,7 @@ The cab ride data covers various types of cabs for Uber & Lyft and their price f
 - SQL
 - Google Colab Notebook
 
-[Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
+[Back To The Top](# Descriptive-Analysis-of-Ride-Sharing-App-Prices- (Uber & Lyft))
 
 ---
 
@@ -90,7 +88,7 @@ Given a dataset, I wrote sql queries to perform descriptive analysis highlightin
 As a start while performing data analysis, I derived the following questions from the given datasets: 
 1. When do prices hit a high during 3 periods of the day?
 2. Get a feel of average pricing for a single day, select a random day and break it into periods of the day: 
-* Midnight to early morning (12am - 6am); 
+* Midnight to early morning (12am - 6am)
 * Early morning to midday (7am - 12pm)
 * Early afternoon to late evening (1pm - 6pm)
 * Late evening to midnight (7pm - 11pm)
@@ -133,14 +131,7 @@ For distance 5.90-7.86 Lyft has average price 30.1, minimum price 10.5, and maxi
 ---
 
 ## Recommendations
-
-From the above analysis, below are our recommendations:
-
-* Since most of the delays were caused by Late return from Field Trips, it is recommended that the buses be rotated out to prevent breakdown i.e the buses going out for field trips should be on rotational basis.
-
-* Heavy traffic is the most frequent reason for running late and hence either the roads be expanded to ease traffic or the number of vehicles plying that route should be regulated. Alternative routes may also be considered.
-
-* An investigation into LITTLE RICHIE BUS SERVICE which is the bus company with the most breakdowns should be launched to understand the reason.
+The Ride-Sharing Startup management team can use this information as a starting point then later adjust accordingly based on user feedback.
 
 [Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
 
