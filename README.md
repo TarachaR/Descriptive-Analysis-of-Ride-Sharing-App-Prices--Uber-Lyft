@@ -5,7 +5,7 @@
 
 > Date: 14/11/2020
 
-![NYC Home Page Image](https://user-images.githubusercontent.com/67068918/98472046-59182b80-2201-11eb-940d-b18f930166e8.png)
+![Ride_Sharing-1](https://user-images.githubusercontent.com/67068918/99152463-0338fd00-26b3-11eb-856a-0ab399c17df5.jpg)
 
 ---
 
