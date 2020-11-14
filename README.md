@@ -1,4 +1,4 @@
-# Descriptive-Analysis-of-Ride-Sharing-App-Prices- (Uber & Lyft)
+#Descriptive-Analysis-of-Ride-Sharing-App-Prices-(Uber & Lyft)
 ---
 
 > Author: Richard Taracha
