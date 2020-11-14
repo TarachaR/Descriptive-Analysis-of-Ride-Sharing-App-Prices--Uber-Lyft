@@ -49,6 +49,7 @@ Deliverable is an SQL notebook with my data analysis in SQL:
 
 Datasets:
 Weather Dataset URL = https://bit.ly/cabsweatherdata
+
 Cabs Dataset URL = https://bit.ly/cabsdataset
 
 Dataset Glossary:
