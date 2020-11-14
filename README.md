@@ -12,7 +12,6 @@
 ### Table of Contents
 Sections headers used to reference locations of each destination:
 
-- [External Data Source Validation](#external-data-source-validation)
 - [Understanding The Context](#understanding-the-context)
 - [Project Deliverable](#project-deliverable)
 - [Recording the Experimental Design](#recording-the-experimental-design)
@@ -21,16 +20,6 @@ Sections headers used to reference locations of each destination:
 - [Author Information](#author-information)
 
 ---
-
-## External Data Source Validation
-
-According to https://www.nycgo.com/neighborhoods-boroughs/about-nyc-five-boroughs/, New York City has 5 main Boroughs namely: the Bronx, Brooklyn, Manhattan, Queens and Staten Island—each with dozens of neighborhoods lending their own local flavor
-
-Our data set contains these boroughs confirmed using the formular df.Boro.Unique(): New Jersey', 'Manhattan', 'Bronx', 'Westchester', 'Brooklyn', 'Rockland County', 'Nassau County', 'Queens', 'Staten Island', 'Connecticut', 'All Boroughs' which is more than what the information above has indicated although the data contains the 5 main boroughs. The assumption is that the extra boroughs are within the 5 main boroughs.
-
-The data is provided to the NYC open data by Department of Education (DOE) and can be accessed via https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm
-
-> All personally identifying information has been removed from the data.
 
 ## Understanding The Context
 
@@ -44,23 +33,46 @@ Given a dataset, I wrote sql queries to perform descriptive analysis highlightin
 
 #### Technologies and Tools
 
-- Pandas
-- Numpy
+- Python Programming Language
+- sqlite
+- SQL
+- Google Colab Notebook
 
 [Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
 
 ---
 
 ## Project Deliverable
-Deliverable is a python notebook that contains my solution:
+Deliverable is an SQL notebook with my data analysis in SQL:
 
-* Notebook name: New York City Data Wrangling with Python.ipynb
+* Notebook name: Descriptive Analysis of Ride Sharing App Prices.ipynb
 
-Dataset Overview:
-The dataset that was provided comes from the Bus Breakdown and Delay system which collects information from school bus vendors operating out in the field in real time. Bus staff that encounter delays during the route are instructed to radio the dispatcher at the bus vendor’s central office. The bus vendor staff are then instructed to log into the Bus Breakdown and Delay system to record the event and notify OPT. OPT customer service agents use this system to inform parents who call with questions regarding bus service. The Bus Breakdown and Delay system is publicly accessible and contains real time updates. All information in the system is entered by school bus vendor staff.
+Datasets:
+Weather Dataset URL = https://bit.ly/cabsweatherdata
+Cabs Dataset URL = https://bit.ly/cabsdataset
 
-* Dataset name: hotel_bookings.csv
-* Dataset Download Link: https://bit.ly/BusBreakdownDataset
+Dataset Glossary:
+* Cab Rides Dataset
+1. distance: distance between source and destination. 
+2. cab_type: Uber or Lyft
+3. time_stamp: time when data was queried
+4. destination: destination of the ride
+5. source: the starting point of the ride
+6. price: price estimate for the ride in USD
+7. surge_multiplier: the multiplier by which price was increased, default 1
+8. unique identifier
+9. product_id: uber/lyft identifier for cab-type
+10. name: Visible type of the cab eg: Uber Pool, UberXL
+
+* Weather Dataset
+1. temp: Temperature 
+2. location: Location name
+3. clouds: Clouds
+4. pressure: pressure in mb
+5. rain: rain in inches for the last hr
+6. time_stamp: time when row data was collected
+7. humidity: humidity in %
+8. wind: wind speed in mph
 
 [Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
 
