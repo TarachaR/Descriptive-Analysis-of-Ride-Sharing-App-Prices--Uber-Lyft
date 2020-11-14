@@ -29,8 +29,6 @@ I'm able to access some real-time data from Uber & Lyft's API and weather data f
 
 The cab ride data covers various types of cabs for Uber & Lyft and their price for the given location. Weather data contains weather attributes like temperature, rain, cloud, etc for all the locations taken into consideration.
 
-Given a dataset, I wrote sql queries to perform descriptive analysis highlighting key insights that would be helpful in helping the startup develop a new product. 
-
 #### Technologies and Tools
 
 - Python Programming Language
@@ -85,17 +83,18 @@ Dataset Glossary:
 3. Data Exploration
 4. Data Cleaning
 5. Data Preparation
-6. Data Analysis
+6. Data Analysis with SQL
 
-Given the dataset, I performed data exploration, data wrangling (cleaning and analysis) in an effort to come with appropriate recommendations. 
+Given a dataset, I wrote sql queries to perform descriptive analysis highlighting key insights that would be helpful in helping the startup develop a new product.  
 
-As a start while performing data analysis, I derived the following questions from the given dataset: 
-1. Which bus companies that had the highest breakdowns?
-2. What were the top 3 reasons for bus delays?
-3. How many students were in the buses when they broke down?
-4. Which were most frequent reasons for bus breakdowns?
-5. What were the most frequent reasons for the bus running late?
-6. What was the average delay time of each reason type?
+As a start while performing data analysis, I derived the following questions from the given datasets: 
+1. When do prices hit a high during 3 periods of the day?
+2. Get a feel of average pricing for a single day, select a random day and break it into periods of the day: 
+* Midnight to early morning (12am - 6am); 
+* Early morning to midday (7am - 12pm)
+* Early afternoon to late evening (1pm - 6pm)
+* Late evening to midnight (7pm - 11pm)
+3. What is the average price charged by each cab per distanced travelled,, minimum price charged by each cab per distanced travelled, maximum price charged by each cab per distanced travelled
 
 
 [Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
@@ -104,10 +103,30 @@ As a start while performing data analysis, I derived the following questions fro
 
 ## Summary Of Findings
 
-- From my analysis, most of the delays were caused by late returns from field trips
-- Heavy traffic and mechanical problems are the most frequent reasons for bus delays.
-- G.V.C., LTD, LEESEL TRANSPORTATION CORP (B2192) and PIONEER TRANSPORTATION CO	are the bus companies with the highest number of breakdowns.
-- There were a total number of 58329 students on the bus when it broke down and a total number of 890829 on the bus when it was running late.
+The following are the prices for Lyft:
+
+- overall average of 16.54, overall minimum 2.5, overall maximum 97.5
+- average 17.3, minimum 2.5, maximum 97.5 from midnight to 6 AM
+- average 17.35, minimum 2.5, maximum 89.0 from 7 AM to 12 PM
+- average 17.33, minimum 2.5, maximum 92.0 from 1 PM to 6 PM
+- average 17.37, minimum 2.5, maximum 92.0 from 7 PM to 11 PM
+
+The following are the prices for Uber:
+
+- overall average of 15.79, overall minimum 4.5, overall maximum 89.5
+- average 15.80, minimum 4.5, maximum 81.5 from midnight to 6 AM
+- average 15.75, minimum 4.5, maximum 80.5 from 7 AM to 12 PM
+- average 15.80, minimum 4.5, maximum 89.5 from 1 PM to 6 PM
+- average 15.81, minimum 4.5, maximum 76.0 from 7 PM to 11 PM
+- Minimum distance is 0.02, maximum distance is 7.86.
+
+For distance 0.00-1.96: Lyft has average price 14.07, minimum price 2.5, and maximum price 65.0. Uber has average price 13.37, minimum price 4.5, and maximum price 61.5.
+
+For distance 1.97-3.93: Lyft has average price 19.24, minimum price 2.5, and maximum price 92.0. Uber has average price 17.14, minimum price 6.0, and maximum price 80.5.
+
+For distance 3.94-5.89: Lyft has average price 25.54, minimum price 3.0, and maximum price 97.5. Uber has average price 22.33, minimum price 7.5, and maximum price 87.0.
+
+For distance 5.90-7.86 Lyft has average price 30.1, minimum price 10.5, and maximum price 65.0. Uber has average price 26.10, minimum price 10.0, and maximum price 89.5.
 
 [Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
 
