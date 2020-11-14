@@ -34,9 +34,13 @@ The data is provided to the NYC open data by Department of Education (DOE) and c
 
 ## Understanding The Context
 
-With this project, I'm working as a Data Science Consultant and has been tasked to provide recommendations on how to reduce the cases of breakdown of buses in the city of New York. 
+Come up with a descriptive analysis report to help a Ride Sharing Startup coming into the space, understand the various patterns on how pricing works for the existing ride sharing company. 
 
-Given a dataset, I performed data exploration and data wrangling (data cleaning and analysis) then came up with some appropriate recommendations. 
+I'm able to access some real-time data from Uber & Lyft's API and weather data from a Weather API conditions. I built a custom application in Scala to query data at regular intervals and saved it to DynamoDB. The queried cab ride estimates are done after every 5 mins and weather data after every 1 hr. 
+
+The cab ride data covers various types of cabs for Uber & Lyft and their price for the given location. Weather data contains weather attributes like temperature, rain, cloud, etc for all the locations taken into consideration.
+
+Given a dataset, I wrote sql queries to perform descriptive analysis highlighting key insights that would be helpful in helping the startup develop a new product. 
 
 #### Technologies and Tools
 
