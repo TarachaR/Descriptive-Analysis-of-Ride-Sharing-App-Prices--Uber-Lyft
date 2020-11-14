@@ -5,7 +5,7 @@
 
 > Date: 14/11/2020
 
-![Ride_Sharing-1](https://user-images.githubusercontent.com/67068918/99152463-0338fd00-26b3-11eb-856a-0ab399c17df5.jpg)
+![Introduction-to-Ride-Hailing](https://user-images.githubusercontent.com/67068918/99152504-5ad76880-26b3-11eb-8c11-06addec9baf2.jpg)
 
 ---
 
