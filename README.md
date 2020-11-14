@@ -71,7 +71,7 @@ Dataset Glossary:
 7. humidity: humidity in %
 8. wind: wind speed in mph
 
-[Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
+[Back To The Top](#Descriptive-Analysis-of-Ride-Sharing-App-Prices-Uber-Lyft)
 
 ---
 
@@ -95,7 +95,7 @@ As a start while performing data analysis, I derived the following questions fro
 3. What is the average price charged by each cab per distanced travelled,, minimum price charged by each cab per distanced travelled, maximum price charged by each cab per distanced travelled
 
 
-[Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
+[Back To The Top](#Descriptive-Analysis-of-Ride-Sharing-App-Prices-Uber-Lyft)
 
 ---
 
@@ -126,14 +126,14 @@ For distance 3.94-5.89: Lyft has average price 25.54, minimum price 3.0, and max
 
 For distance 5.90-7.86 Lyft has average price 30.1, minimum price 10.5, and maximum price 65.0. Uber has average price 26.10, minimum price 10.0, and maximum price 89.5.
 
-[Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
+[Back To The Top](#Descriptive-Analysis-of-Ride-Sharing-App-Prices-Uber-Lyft)
 
 ---
 
 ## Recommendations
 The Ride-Sharing Startup management team can use this information as a starting point then later adjust accordingly based on user feedback.
 
-[Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
+[Back To The Top](#Descriptive-Analysis-of-Ride-Sharing-App-Prices-Uber-Lyft)
 
 ---
 
@@ -142,6 +142,6 @@ The Ride-Sharing Startup management team can use this information as a starting 
 - Twitter - https://twitter.com/Vycellous_Drum
 - Website - https://richardtaracha.glitch.me/
 
-[Back To The Top](#New-York-City-Bus-Breakdowns---Data-Wrangling-with-Python)
+[Back To The Top](#Descriptive-Analysis-of-Ride-Sharing-App-Prices-Uber-Lyft)
 
 
